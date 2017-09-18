@@ -1,0 +1,62 @@
+.box1 {
+    border:         solid 1px #dcdcdc;
+    padding:        20px;
+    background:     #f3f3f3;
+    border-radius:  3px;
+}
+
+.task-manager {
+    padding:    15px;
+    position:   relative;
+    left:       30%;
+}
+
+.task-manager input.textfield {
+    width:          480px;
+    height:         36px;
+    margin-right:   20px;
+    font-size:      1.4em;
+    vertical-align: top;
+}
+
+.task-manager input.checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.task-manager .checked {
+    text-decoration: line-through;
+}
+
+.task-manager button {
+    height:         36px;
+    font-size:      1.1em;
+    vertical-align: top;
+    border:         solid 1px #999;
+    border-radius:  2px;
+}
+
+.task-manager .delete-icon {
+    display:    inline-block;
+    cursor:     pointer;
+    color:      #aa0114;
+}
+
+    .task-manager li {
+        width: 300px;
+        border: 1px solid #dcdcdc;
+        border-top: none;
+    }
+
+    .task-manager li:first-of-type {        
+        border-top: 1px solid #dcdcdc;
+    }
+
+    .task-manager li:nth-of-type(even) {        
+        background: #f3f3f3;
+    }
+
+        .task-manager li span {
+            position: relative;
+            top: -5px
+        }

@@ -1,0 +1,43 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+task-manager-app/dist
+task-manager-app/tmp
+task-manager-app/out-tsc
+
+# dependencies
+task-manager-app/node_modules
+/node_modules
+
+# IDEs and editors
+task-manager-app/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+task-manager-app/.sass-cache
+task-manager-app/connect.lock
+task-manager-app/coverage
+task-manager-app/libpeerconnection.log
+npm-debug.log
+testem.log
+task-manager-app/typings
+
+# e2e
+task-manager-app/e2e/*.js
+task-manager-app/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
